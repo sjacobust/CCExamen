@@ -1,0 +1,13 @@
+---
+applications:
+  - name: ToneAnalyzer-Examen1-sjacobus
+    random-route: true
+    buildpacks:
+      - sdk-for-nodejs
+    memory: 256M
+    path: .
+    command: npm run start
+    instances: 1
+    memory: 256M
+    env:
+      NPM_CONFIG_PRODUCTION: false

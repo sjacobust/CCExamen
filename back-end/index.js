@@ -21,10 +21,11 @@ const toneAnalyzer = new ToneAnalyzerV3({
     url: taURL
 });
 
-// Express JSON Parser
+// Express JSON Parser and urlencoded
 
-app.use('', express.json());
-
+app.use(express.urlencoded({
+    extended: true
+  }))
 
 // Routing
 
@@ -47,11 +48,13 @@ app.get('*', (req, res) => {
  * message to the Tone Analyzer, if it can't it will return a JSON
  * specifying why the delivery failed.
  */
+app.use(express.json());
 app.post('*', (req, res) => {
+    console.log(req.body);
     if (req.body.message) {
         const toneParams = {
             toneInput: { 'text': req.body.message },
-            content_type: 'application/json',
+            content_type: 'text/plain',
             };
         toneAnalyzer.tone(toneParams)
             .then(toneAnalysis => {

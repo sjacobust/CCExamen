@@ -1,0 +1,22 @@
+<form id="messageForm" action="/" method="post">
+    <div class="grid">
+        <div class="row">
+            <div class="col-12">
+                <textarea rows="10" cols="100" placeholder="Enter Text Here" id="message" name="message"
+                    form="messageForm"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button>Submit</button>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="grid">
+    <div class="row">
+        <div class="col-12">
+            <textarea rows="35" cols="100" placeholder="Tone Analyzer" readonly="true" oninput="prettyPrint();" id="tata">{{ message }}</textarea>
+        </div>
+    </div>
+</div>

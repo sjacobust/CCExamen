@@ -1,0 +1,329 @@
+/* Empieza Grid */
+
+.grid {
+    width: 75%;
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+.grid>.row {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+[class*='col-'] {
+    border-radius: 5px;
+    height: auto;
+    text-align: center;
+}
+
+.grid>.col-1,
+.row>.col-1 {
+    width: 8.33333%;
+}
+
+.grid>.col-2,
+.row>.col-2 {
+    width: 16.66667%;
+}
+
+.grid>.col-3,
+.row>.col-3 {
+    width: 25%;
+}
+
+.grid>.col-4,
+.row>.col-4 {
+    width: 33.33333%;
+}
+
+.grid>.col-5,
+.row>.col-5 {
+    width: 41.66667%;
+}
+
+.grid>.col-6,
+.row>.col-6 {
+    width: 50%;
+}
+
+.grid>.col-7,
+.row>.col-7 {
+    width: 58.33333%;
+}
+
+.grid>.col-8,
+.row>.col-8 {
+    width: 66.66667%;
+}
+
+.grid>.col-9,
+.row>.col-9 {
+    width: 75%;
+}
+
+.grid>.col-10,
+.row>.col-10 {
+    width: 83.33333%;
+}
+
+.grid>.col-11,
+.row>.col-11 {
+    width: 91.66667%;
+}
+
+.grid>.col-12,
+.row>.col-12 {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .row>.col-d-1 {
+        width: 8.33333%;
+    }
+
+    .row>.col-d-2 {
+        width: 16.66667%;
+    }
+
+    .row>.col-d-3 {
+        width: 25%;
+    }
+
+    .row>.col-d-4 {
+        width: 33.33333%;
+    }
+
+    .row>.col-d-5 {
+        width: 41.66667%;
+    }
+
+    .row>.col-d-6 {
+        width: 50%;
+    }
+
+    .row>.col-d-7 {
+        width: 58.33333%;
+    }
+
+    .row>.col-d-8 {
+        width: 66.66667%;
+    }
+
+    .row>.col-d-9 {
+        width: 75%;
+    }
+
+    .row>.col-d-10 {
+        width: 83.33333%;
+    }
+
+    .row>.col-d-11 {
+        width: 91.66667%;
+    }
+
+    .row>.col-d-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .row>.col-l-1 {
+        width: 8.33333%;
+    }
+
+    .row>.col-l-2 {
+        width: 16.66667%;
+    }
+
+    .row>.col-l-3 {
+        width: 25%;
+    }
+
+    .row>.col-l-4 {
+        width: 33.33333%;
+    }
+
+    .row>.col-l-5 {
+        width: 41.66667%;
+    }
+
+    .row>.col-l-6 {
+        width: 50%;
+    }
+
+    .row>.col-l-7 {
+        width: 58.33333%;
+    }
+
+    .row>.col-l-8 {
+        width: 66.66667%;
+    }
+
+    .row>.col-l-9 {
+        width: 75%;
+    }
+
+    .row>.col-l-10 {
+        width: 83.33333%;
+    }
+
+    .row>.col-l-11 {
+        width: 91.66667%;
+    }
+
+    .row>.col-l-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid>.row {
+        width: 100%;
+        display: block;
+    }
+
+    .row>.col-t-1 {
+        width: 8.33333%;
+    }
+
+    .row>.col-t-2 {
+        width: 16.66667%;
+    }
+
+    .row>.col-t-3 {
+        width: 25%;
+    }
+
+    .row>.col-t-4 {
+        width: 33.33333%;
+    }
+
+    .row>.col-t-5 {
+        width: 41.66667%;
+    }
+
+    .row>.col-t-6 {
+        width: 50%;
+    }
+
+    .row>.col-t-7 {
+        width: 58.33333%;
+    }
+
+    .row>.col-t-8 {
+        width: 66.66667%;
+    }
+
+    .row>.col-t-9 {
+        width: 75%;
+    }
+
+    .row>.col-t-10 {
+        width: 83.33333%;
+    }
+
+    .row>.col-t-11 {
+        width: 91.66667%;
+    }
+
+    .row>.col-t-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid>.row {
+        width: 100%;
+        display: block;
+    }
+
+    .row>.col-m-1 {
+        width: 8.33333%;
+    }
+
+    .row>.col-m-2 {
+        width: 16.66667%;
+    }
+
+    .row>.col-m-3 {
+        width: 25%;
+    }
+
+    .row>.col-m-4 {
+        width: 33.33333%;
+    }
+
+    .row>.col-m-5 {
+        width: 41.66667%;
+    }
+
+    .row>.col-m-6 {
+        width: 50%;
+    }
+
+    .row>.col-m-7 {
+        width: 58.33333%;
+    }
+
+    .row>.col-m-8 {
+        width: 66.66667%;
+    }
+
+    .row>.col-m-9 {
+        width: 75%;
+    }
+
+    .row>.col-m-10 {
+        width: 83.33333%;
+    }
+
+    .row>.col-m-11 {
+        width: 91.66667%;
+    }
+
+    .row>.col-m-12 {
+        width: 100%;
+    }
+}
+
+/* Termina Grid */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7e96e6;
+    color: #18181C;
+}
+
+.newsItem {
+    background-color: #FDFFFC;
+    color: #18181C;
+    border-style: solid;
+    border-width: .10px;
+    border-color: #902D41;
+    border-radius: 5px;
+}
+
+.appHome {
+    color: #18181C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.verticalHr {
+    border: none;
+    border-left: 1px solid #73848c;
+    height: auto;
+    width: 1px;
+}
+
+.inputCenter {
+    margin: auto;
+    padding: auto;
+}
